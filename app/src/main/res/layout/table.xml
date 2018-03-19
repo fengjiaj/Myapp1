@@ -84,11 +84,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_column="2"
-                android:text="2"/>
+                android:text="3"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_column="3"
+                android:layout_column="2"
                 android:text="指定在第4列"/>
         </TableRow>
     </TableLayout>
