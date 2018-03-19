@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--第一个竖向布局-->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <!--第一个竖向布局中的第一个横向布局-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--第一竖向布局中的第一个横向布局中的第一竖向布局-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:text="FIRST"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:text="SECOND"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:text="THIRD BUTTON"/>
+        </LinearLayout>
+        <!--第一竖向布局中的第二个横向布局中的第一竖向布局-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:text="FIRST"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:text="SECOND"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:text="THIRD BUTTON"/>
+
+
+        </LinearLayout>
+        <!--第一竖向布局中的第三个横向布局中的第一竖向布局-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:text="FIRST"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:text="SECOND"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:text="THIRDBUTTON"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--第一个竖向布局中的第二个横向布局-->
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+</LinearLayout>
+</LinearLayout>
+    <!--第二个竖向布局-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:text="FIRST"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:text="THIS IS SECOND BUTTON!"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:text="THIRD"/>
+</LinearLayout>
+    <!--第三个竖向布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="FIRST"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="2"
+            android:text="THIS IS SECOND BUTTON!"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="THIRD"/>
+    </LinearLayout>
+    <!--第四个竖向布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="BUTTON1" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="BUTTON2" />
+    </LinearLayout>
+
+</LinearLayout>
